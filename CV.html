@@ -49,10 +49,6 @@
       margin-left: 5px;
     }
 
-    .flex {
-      display: flex;
-    }
-
     .margin-8 {
       margin: 8px;
     }
@@ -71,6 +67,11 @@
 
     .gap {
       margin-left: 50px;
+    }
+
+    .inline {
+      vertical-align: top;
+      display: inline-block;
     }
 
     .highlight {
@@ -138,8 +139,8 @@
 
   <div class="section">
     <h3 class="section_header">Skills:</h3>
-    <div class="flex section_description" id="skills_section">
-      <div>
+    <div class="section_description" id="skills_section">
+      <div class="inline">
         <ul>
           <li>Python</li>
           <li>Rust</li>
@@ -148,7 +149,7 @@
           <li>Java</li>
         </ul>
       </div>
-      <div class="gap">
+      <div class="gap inline">
         <ul>
           <li>Bash</li>
           <li>Linux</li>
@@ -157,7 +158,7 @@
           <li>OOP</li>
         </ul>
       </div>
-      <div class="gap">
+      <div class="gap inline">
         <ul>
           <li>HTTP</li>
           <li>HTML/CSS</li>
